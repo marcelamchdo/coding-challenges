@@ -13,3 +13,4 @@ const search = (nums, target) => {
   const result = nums.includes(target) ? nums.indexOf(target) : -1
   return result;
 };
+
