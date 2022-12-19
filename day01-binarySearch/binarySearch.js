@@ -7,6 +7,9 @@
  * @param {number} target
  * @return {number}
  */
-var search = (nums, target) => {
-  nums.includes(target) ? nums.indexOf(target) : -1
+
+
+const search = (nums, target) => {
+  const result = nums.includes(target) ? nums.indexOf(target) : -1
+  return result;
 };
